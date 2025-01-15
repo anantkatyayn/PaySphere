@@ -12,8 +12,6 @@ PaySphere is a modern, multi-mode payment module designed to simplify payment in
   - UPI QR code generation for instant payments.
 - **Dynamic Payment Configuration**:
   - Set custom payment amounts for each transaction.
-- **Light/Dark Theme Toggle**:
-  - User-friendly UI with theme customization.
 - **Pre-Built UI Components**:
   - Responsive and clean interfaces for configuration and payments.
 - **Developer-Friendly APIs**:
@@ -42,7 +40,7 @@ PaySphere is a modern, multi-mode payment module designed to simplify payment in
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/your-username/PaySphere.git
+git clone https://github.com/anantkatyayn/PaySphere.git
 cd PaySphere
 ```
 
@@ -58,6 +56,8 @@ cd PaySphere
 3. Create a `.env` file in the backend root and add the following:
    ```env
    STRIPE_SECRET_KEY=your-stripe-secret-key
+   
+  MERCHANT_UPI_ID=your@upiid
    ```
 4. Start the backend server:
    ```bash
@@ -122,11 +122,14 @@ cd PaySphere
 
 ## Screenshots
 
+### Home Page
+![Welcome Page](https://github.com/anantkatyayn/anantkatyayn/blob/main/assets/welcomePage.png)
+
 ### Configuration Page
-![Configuration Page](https://via.placeholder.com/800x400?text=Configuration+Page)
+![Configuration Page](https://github.com/anantkatyayn/anantkatyayn/blob/main/assets/ConfigPage.png)
 
 ### Payment Page
-![Payment Page](https://via.placeholder.com/800x400?text=Payment+Page)
+![Payment Page](https://github.com/anantkatyayn/anantkatyayn/blob/main/assets/paymentPage.png)
 
 ---
 

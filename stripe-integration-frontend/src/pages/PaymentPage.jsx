@@ -1,10 +1,11 @@
 import React from 'react';
-import PaymentForm from '../components/PaymentForm';
+
+import PaymentFormWrapper from '../components/PaymentForm';
 
 const PaymentPage = () => {
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <PaymentForm />
+    <div className="min-h-screen bg-slate-900 flex items-center justify-center">
+      <PaymentFormWrapper />
     </div>
   );
 };
