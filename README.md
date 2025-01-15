@@ -56,8 +56,7 @@ cd PaySphere
 3. Create a `.env` file in the backend root and add the following:
    ```env
    STRIPE_SECRET_KEY=your-stripe-secret-key
-   
-  MERCHANT_UPI_ID=your@upiid
+   MERCHANT_UPI_ID=your@upiid
    ```
 4. Start the backend server:
    ```bash
