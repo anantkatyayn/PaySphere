@@ -10,7 +10,7 @@ import api from "../utils/api";
 
 // Load Stripe with the publishable key
 const stripePromise = loadStripe(
-  "pk_test_51QhOBnFYhrr8u2JT9HT7da0JuIC5lOuvpuEj7cL6IcY9jjB0SW0wesCa6LkDIzdz1UiNdROYr7Z3roEL6ByZChje00Lah8WnNx"
+    import.meta.env.VITE_STRIPE_PUBLISHABLE_KEY
 );
 
 const CheckoutForm = () => {
@@ -34,6 +34,9 @@ const CheckoutForm = () => {
         amount: parseInt(amount, 10) * 100, // Convert dollars to cents
         currency: "usd",
       });
+
+
+      console.log("Stripe Publishable Key:", import.meta.env.VITE_STRIPE_PUBLISHABLE_KEY);
 
       const { error, paymentIntent } = await stripe.confirmCardPayment(
         data.clientSecret,

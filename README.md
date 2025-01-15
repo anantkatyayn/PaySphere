@@ -58,7 +58,6 @@ cd PaySphere
 3. Create a `.env` file in the backend root and add the following:
    ```env
    STRIPE_SECRET_KEY=your-stripe-secret-key
-   STRIPE_WEBHOOK_SECRET=your-stripe-webhook-secret
    ```
 4. Start the backend server:
    ```bash
@@ -136,12 +135,6 @@ cd PaySphere
 - Add support for additional payment gateways like PayPal.
 - Implement webhook-based payment status updates.
 - Extend support for recurring payments and subscriptions.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
