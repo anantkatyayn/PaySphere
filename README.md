@@ -123,13 +123,13 @@ cd PaySphere
 ## Screenshots
 
 ### Home Page
-![Welcome Page](https://github.com/anantkatyayn/anantkatyayn/blob/main/assets/welcomePage.png)
+![Welcome Page](https://github.com/anantkatyayn/PaySphere/blob/main/assets/welcomePage.png)
 
 ### Configuration Page
-![Configuration Page](https://github.com/anantkatyayn/anantkatyayn/blob/main/assets/ConfigPage.png)
+![Configuration Page](https://github.com/anantkatyayn/PaySphere/blob/main/assets/ConfigPage.png)
 
 ### Payment Page
-![Payment Page](https://github.com/anantkatyayn/anantkatyayn/blob/main/assets/paymentPage.png)
+![Payment Page](https://github.com/anantkatyayn/PaySphere/blob/main/assets/paymentPage.png)
 
 ---
 
