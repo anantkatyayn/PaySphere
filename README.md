@@ -47,7 +47,7 @@ cd PaySphere
 ### Backend Setup
 1. Navigate to the backend directory:
    ```bash
-   cd stripe-integration-backend
+   cd backend/stripe-integration-backend
    ```
 2. Install dependencies:
    ```bash
